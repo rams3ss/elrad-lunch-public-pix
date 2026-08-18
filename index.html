@@ -1,2 +1,96 @@
 <!doctype html>
-<html lang="sl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Elrad Lunch PIX</title></head><body><main><h1>Elrad Lunch PIX</h1><p>Testna stran se pripravlja.</p></main></body></html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Dnevno priporočilo za Elrad kosilo.">
+  <title>Elrad kosilo – priporočilo</title>
+  <style>
+    :root { color-scheme: light; --bg:#f3f6f8; --card:#fff; --text:#17212b; --muted:#64748b; --line:#dbe3ea; --green:#e8f7ee; --blue:#eaf2ff; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--text); font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.55; }
+    main { width:min(980px,calc(100% - 32px)); margin:40px auto; }
+    header { margin-bottom:24px; }
+    h1 { margin:0 0 8px; font-size:clamp(2rem,5vw,3.4rem); letter-spacing:-.04em; }
+    .lead,.meta { color:var(--muted); }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+    .meal-card,.panel { background:var(--card); border:1px solid var(--line); border-radius:20px; padding:24px; box-shadow:0 10px 30px rgba(15,23,42,.06); }
+    .recommended { background:linear-gradient(180deg,var(--green),#fff 45%); }
+    .alternative { background:linear-gradient(180deg,var(--blue),#fff 45%); }
+    .eyebrow { margin:0; font-size:.78rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); }
+    h2 { margin:.35rem 0 1rem; font-size:1.35rem; }
+    .macros { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin:18px 0; }
+    .macros div { padding:12px; border:1px solid var(--line); border-radius:14px; background:rgba(255,255,255,.72); }
+    .macros strong,.macros span { display:block; }
+    .macros strong { font-size:1.2rem; }
+    .macros span { color:var(--muted); font-size:.86rem; }
+    .panel { margin-top:20px; }
+    ol { list-style:none; padding:0; margin:0; display:grid; gap:10px; }
+    li { display:flex; gap:12px; padding:12px 0; border-bottom:1px solid var(--line); }
+    li:last-child { border-bottom:0; }
+    li span { flex:0 0 30px; height:30px; border-radius:50%; display:grid; place-items:center; background:#edf2f7; font-weight:700; }
+    footer { margin-top:18px; color:var(--muted); font-size:.9rem; }
+    @media (max-width:720px) { .grid { grid-template-columns:1fr; } main { margin:24px auto; } }
+  </style>
+
+    <style>
+      .menu-with-picture { align-items:center; }
+      .menu-picture { flex:0 0 76px; width:76px; height:76px; display:grid; place-items:center; border-radius:18px; background:linear-gradient(145deg,#fff,#edf2f7); border:1px solid var(--line); font-size:2.7rem; box-shadow:0 8px 20px rgba(15,23,42,.08); }
+      .menu-copy { flex:1; }
+      .picture-note { color:var(--muted); font-size:.82rem; margin:.8rem 0 0; }
+      @media (max-width:520px) { .menu-picture { flex-basis:58px; width:58px; height:58px; font-size:2rem; border-radius:14px; } }
+    </style>
+    </head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Elrad lunch AI</p>
+      <h1>Priporočilo za 19. 08. 2026</h1>
+      <p class="lead">Ponudba je precej mesno in ogljikohidratno usmerjena, z nekaj možnosti za vnos sveže zelenjave.</p>
+      <p class="meta">Posodobljeno: <time datetime="2026-08-18T12:25:55.180486+00:00">2026-08-18T12:25:55.180486+00:00</time> · Model: gemini-3.5-flash-lite</p>
+    </header>
+
+    <section class="grid">
+      <article class="meal-card recommended">
+      <p class="eyebrow">Najbolj zdrava izbira</p>
+      <h2>SOLATNI KROŽNIK - VEČ VRST SVEŽE ZELENJAVE</h2>
+      <div class="macros">
+        <div><strong>220</strong><span>kcal</span></div>
+        <div><strong>6.5</strong><span>g beljakovin</span></div>
+        <div><strong>35.0</strong><span>g OH</span></div>
+        <div><strong>4.0</strong><span>g maščob</span></div>
+      </div>
+      <p>Solatni krožnik vsebuje največ sveže zelenjave, vlaknin ter najmanj predelanih sestavin in skritih maščob.</p>
+    </article>
+      <article class="meal-card alternative">
+      <p class="eyebrow">Alternativa</p>
+      <h2>MENI KLASIK - KEBAB S PIŠČANČJIM MESOM</h2>
+      <div class="macros">
+        <div><strong>550</strong><span>kcal</span></div>
+        <div><strong>35.0</strong><span>g beljakovin</span></div>
+        <div><strong>45.0</strong><span>g OH</span></div>
+        <div><strong>22.0</strong><span>g maščob</span></div>
+      </div>
+      <p>Piščančje meso predstavlja pusto vir beljakovin, obrok pa vključuje tudi zelenjavo, čeprav je zabeljen z jogurtovim prelivom.</p>
+    </article>
+    </section>
+
+    <section class="panel">
+      <h2>Vsi razpoložljivi meniji</h2>
+      <p class="picture-note">Slike so simbolne in ponazarjajo vrsto jedi.</p><ol><li class="menu-with-picture"><span>1</span><div class="menu-picture" role="img" aria-label="Perutnina">🍗</div><div class="menu-copy">MENI KLASIK - KEBAB S PIŠČANČJIM MESOM (Gpš, L, J) (zelenjavo, jogurtov preliv), NAPITEK</div></li>
+<li class="menu-with-picture"><span>2</span><div class="menu-picture" role="img" aria-label="Kosilo">🍽️</div><div class="menu-copy">MENI MOJA IZBIRA - CIGANSKI GOLAŽ(Gpš, Z, J, L) BUHTELJ (Gpš, L, J)</div></li>
+<li class="menu-with-picture"><span>3</span><div class="menu-picture" role="img" aria-label="Kosilo">🍽️</div><div class="menu-copy">MENI VEGI - CARSKI PRAŽENEC(Gpš, J, L) SADNA OMAKA(SO2), KOMPOT</div></li>
+<li class="menu-with-picture"><span>4</span><div class="menu-picture" role="img" aria-label="Solata">🥗</div><div class="menu-copy">SOLATNI KROŽNIK - VEČ VRST SVEŽE ZELENJAVE</div></li>
+<li class="menu-with-picture"><span>5</span><div class="menu-picture" role="img" aria-label="Kosilo">🍽️</div><div class="menu-copy">HLADNI MENI - V.P.POLI S SIROM, KRUH, SADJE, NAMAZ, JOGURT</div></li></ol>
+    </section>
+
+    <section class="panel">
+      <h2>Opomba</h2>
+      <p>Hranilne vrednosti so zgolj približne ocene za standardno porcijo.</p>
+    </section>
+
+    <footer>Hranilne vrednosti so informativne in so odvisne od dejanske velikosti porcije ter priprave.</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+  "status": "ok",
+  "updated_at": "2026-08-18T12:25:55.180486+00:00",
+  "menu_date": "19. 08. 2026",
+  "model": "gemini-3.5-flash-lite",
+  "source_file": "menus-2026-08-18_12-25-33.json",
+  "menus": [
+    {
+      "index": 1,
+      "text": "MENI KLASIK - KEBAB S PIŠČANČJIM MESOM (Gpš, L, J) (zelenjavo, jogurtov preliv), NAPITEK"
+    },
+    {
+      "index": 2,
+      "text": "MENI MOJA IZBIRA - CIGANSKI GOLAŽ(Gpš, Z, J, L) BUHTELJ (Gpš, L, J)"
+    },
+    {
+      "index": 3,
+      "text": "MENI VEGI - CARSKI PRAŽENEC(Gpš, J, L) SADNA OMAKA(SO2), KOMPOT"
+    },
+    {
+      "index": 4,
+      "text": "SOLATNI KROŽNIK - VEČ VRST SVEŽE ZELENJAVE"
+    },
+    {
+      "index": 5,
+      "text": "HLADNI MENI - V.P.POLI S SIROM, KRUH, SADJE, NAMAZ, JOGURT"
+    }
+  ],
+  "analysis": {
+    "recommended": {
+      "menu_index": 4,
+      "name": "SOLATNI KROŽNIK - VEČ VRST SVEŽE ZELENJAVE",
+      "calories_kcal": 220,
+      "protein_g": 6.5,
+      "carbohydrates_g": 35.0,
+      "fat_g": 4.0,
+      "reason": "Solatni krožnik vsebuje največ sveže zelenjave, vlaknin ter najmanj predelanih sestavin in skritih maščob."
+    },
+    "alternative": {
+      "menu_index": 1,
+      "name": "MENI KLASIK - KEBAB S PIŠČANČJIM MESOM",
+      "calories_kcal": 550,
+      "protein_g": 35.0,
+      "carbohydrates_g": 45.0,
+      "fat_g": 22.0,
+      "reason": "Piščančje meso predstavlja pusto vir beljakovin, obrok pa vključuje tudi zelenjavo, čeprav je zabeljen z jogurtovim prelivom."
+    },
+    "summary": "Ponudba je precej mesno in ogljikohidratno usmerjena, z nekaj možnosti za vnos sveže zelenjave.",
+    "disclaimer": "Hranilne vrednosti so zgolj približne ocene za standardno porcijo."
+  }
+}
